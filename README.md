@@ -19,3 +19,27 @@ You’re going to need a computer (laptop or desktop). It should be running a re
 [https://flatironschool.com/wp-content/uploads/Student-Facing-Computer-Requirements.pdf](https://flatironschool.com/wp-content/uploads/Student-Facing-Computer-Requirements.pdf)
 
 Assuming you have a computer that meets the requirements, let’s start by getting git Installed.
+
+## Installing Git
+For each tool, we’ll provide installation instructions for the two most common operating systems - Windows and MacOS.
+
+### Windows
+Go [here](https://git-scm.com/download/win). Then double click on the downloaded exe file. It may open a window asking if you want to allow this application to make changes to your device. Just click “yes”. It will then open the installer. Click “next” to accept the license, and when you “select components” on the next screen make sure to keep the “Windows explorer integration” options checked.
+
+*Note - if there are any differences in the options provided in the installer you download, just accept the defaults - they’ll probably be fine!*
+
+When asked to select an editor, if you’re familiar with vi/vim feel free to use that, otherwise you should probably select an easier to use text editor such as nano.
+
+When asked to adjust your PATH environment, either of the first two options is fine as you’ll mainly be using Git from the new “Git Bash” program that is being installed. You’re probably best to select “use Git from the Windows Command Prompt” as it’ll give you the option of using it there in the future if you wish.
+
+For https, you should select the “use the OpenSSL library” option.
+
+Select the default option for handling line endings.
+
+And use MinTTY as the default terminal emulator.
+
+For extra options, enable the file system caching and the gt credential manager.
+
+And then wait while git is installed onto your computer. 
+
+Finally, click finish to complete setup.
