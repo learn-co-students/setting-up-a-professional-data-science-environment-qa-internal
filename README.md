@@ -23,7 +23,7 @@ Assuming you have a computer that meets the requirements, let’s start by getti
 ## Installing Git
 For each tool, we’ll provide installation instructions for the two most common operating systems - Windows and MacOS.
 
-### Windows
+### Installing Git on Windows
 Go [here](https://git-scm.com/download/win). Then double click on the downloaded exe file. It may open a window asking if you want to allow this application to make changes to your device. Just click “yes”. It will then open the installer. Click “next” to accept the license, and when you “select components” on the next screen make sure to keep the “Windows explorer integration” options checked.
 
 *Note - if there are any differences in the options provided in the installer you download, just accept the defaults - they’ll probably be fine!*
@@ -43,3 +43,19 @@ For extra options, enable the file system caching and the gt credential manager.
 And then wait while git is installed onto your computer. 
 
 Finally, click finish to complete setup.
+
+### Installing Git on MacOS
+If you are comfortable with the command line and have installed [homebrew](https://brew.sh/), you should install git by running the command `brew install git` in a terminal window.  
+
+If you have no idea what the last paragraph meant, just go [here](https://git-scm.com/download/mac). Then double click on the downloaded dmg file and it will open a small finder window looking something like this (the exact name and version will change over time):
+
+Double click on the .pkg file to run it. When you try to do that you might get a security warning pop up.
+
+If that happens, just click on the apple at the top left of the screen, select “system preferences” from the drop down menu. Then select “Security and Privacy”, select the “General” tag, click on the lock to make changes at the bottom of the window (you’ll have to enter your password). Below the “Allow apps downloaded from” option, you should see a message stating that an app was blocked from opening. (If you don’t see this message, double click on the .pkg file again and then look back at the Security & Privacy screen and it should pop up).  Click the “open anyway” button.
+
+You should then see a message confirming if you really want to open the app.
+
+Click on the “open” button. You should then see an installer screen. 
+
+Click “continue”, then “install”, enter your password when prompted, and when the installation is complete, click the “close” button.
+
