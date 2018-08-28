@@ -10,3 +10,12 @@ Whether you’re just looking to learn the basics or want to become a profession
 * **GitHub** - GitHub is a website where data scientists (and programmers) can save their work in case their computer breaks, and share it with their team or the world! At Flatiron School, we store all of our lessons on GitHub.
 
 It’s going to take us a few minutes to get this all installed, but once we do, not only will you be set-up for working through the course, but you’ll also have a professional data science setup on your computer for any future courses or projects you want to work on!
+
+## Computer Prerequisites
+There are many amazing computing devices available these days, but not all of them will allow you to do data science. We love smart phones, flip phones, chromebooks, tablets (including iPads), game boys, nintendo switches, roku’s and arduino’s. You’re not going to be able to complete this course on any of those devices - sorry.
+
+You’re going to need a computer (laptop or desktop). It should be running a recent (last 3-4 years) version of MacOS, Windows or Linux, and ideally it should have 8Gb of RAM and at least 20Gb free hard drive space. More information here:
+
+[https://flatironschool.com/wp-content/uploads/Student-Facing-Computer-Requirements.pdf](https://flatironschool.com/wp-content/uploads/Student-Facing-Computer-Requirements.pdf)
+
+Assuming you have a computer that meets the requirements, let’s start by getting git Installed.
