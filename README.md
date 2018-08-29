@@ -292,9 +292,9 @@ Then to create the environment type `conda env create -f environment.yml`. Depen
 
 If you see a message that states “WARNING: A newer version of conda exists”, feel free to run `conda update -n base conda` but it shouldn’t be required to get things working.
 
-Next, try activating the environment by typing `source activate student-env`.
+Next, try activating the environment by typing `source activate learn-env`.
 
-To confirm that it worked, type `conda info --envs` and confirm that the output in the terminal ends with /student-env - e.g. *  /Users/peterbell/anaconda3/envs/student-env
+To confirm that it worked, type `conda info --envs` and confirm that the output in the terminal ends with /learn-env - e.g. *  /Users/peterbell/anaconda3/envs/learn-env
 
 ## Running Tests
 
