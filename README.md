@@ -73,3 +73,36 @@ If it returns your name, you’re set! If it returns nothing or displays an erro
 Type `git config --global user.email`
 
 If it returns your email address, you’re set! If it returns nothing or displays an error message, type `git config --global user.email your@email.com` - replacing your@email.com with your email address.
+
+
+## Installing Python and Jupyter Notebook via Anaconda
+
+The easiest way to get set up with Python and Jupyter Notebook so you can start coding is to install the Anaconda distribution. Let’s go through the install instructions  for the two most common operating systems - Windows and MacOS.
+
+### Windows
+Go [here](https://www.anaconda.com/download/#windows) and click on the “download” button for the Python 3.x (currently 3.6) version of Anaconda.
+
+A window may pop up asking if you want to give Anaconda your information in return for a cheat sheet - you do not need to do so unless you want to.
+
+You should see in the bottom of your browser window that a .exe file is being downloaded. When it finishes downloading, click on the arrow to the right of the name of the file in the bottom left corner of your browser, and select “open”.
+
+If you don’t see the file in your browser, you can also just open up Windows Explorer, navigate to the “Downloads” directory and double click on the Anaconda file in the list to open it.
+
+That will open the Anaconda installer which will install the software for you on your computer.
+
+Click “next”, then “I agree” to accept the license, and you can install for “just me”, clicking next. Then select the destination folder (the default should work for most people).
+
+On the next screen, accept the default options and click “install”.
+
+This step may take a few minutes.
+
+Once the installation is complete,
+
+Hit “next”. You can skip the Visual Code Studio installation
+
+And then finally click “finish”.
+
+It’ll open up a browser window which you can just close down.
+
+And that’s the process of installing Anaconda. The next step is to test your installation.
+
