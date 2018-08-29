@@ -295,3 +295,11 @@ Next, try activating the environment by typing `source activate student-env`.
 
 To confirm that it worked, type `conda info --envs` and confirm that the output in the terminal ends with /student-env - e.g. *  /Users/peterbell/anaconda3/envs/student-env
 
+## Running Tests
+
+There are lots of ways to use automated tests to improve your projects. If you’re writing some code and you want to make sure that it behaves as expected, it often makes sense to write tests (a) to make sure that it works the way you think it should and (b) to ensure that you don’t break it as you make changes to your code over time. It also allows you to start with the most important use cases and then explore and document edge cases over time. 
+
+At Flatiron, we also use tests to provide students feedback on some of the labs we provide them. Often we’ll write automated tests for labs, so students can run the tests to see whether their code is working the way we expected it to, and perhaps even to get some hints on what they need to fix or change in their code.
+
+There are a number of test frameworks in Python, all of which are designed to make it easier to write tests. We have standardized on [Pytest](https://pytest.org/), which currently appears to be the most popular framework being used by data scientists.
+
