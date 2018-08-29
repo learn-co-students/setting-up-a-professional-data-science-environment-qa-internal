@@ -59,3 +59,17 @@ Click on the “open” button. You should then see an installer screen.
 
 Click “continue”, then “install”, enter your password when prompted, and when the installation is complete, click the “close” button.
 
+
+## Confirming your git installation (all OS’s)
+
+To confirm you have installed Git successfully, open a terminal window (in Windows, using the start menu, open the “Git Bash” program to get a terminal, on a mac, just open the “Terminal” app in the “Utilities” folder within your “Applications” folder). Type `git --version`. It should return the version of git you are running.
+
+While you’re in the terminal, you should also set up your name and email address.
+
+Type `git config --global user.name`
+
+If it returns your name, you’re set! If it returns nothing or displays an error message, type `git config --global user.name “Your Name”` - replacing Your Name with your name.
+
+Type `git config --global user.email`
+
+If it returns your email address, you’re set! If it returns nothing or displays an error message, type `git config --global user.email your@email.com` - replacing your@email.com with your email address.
