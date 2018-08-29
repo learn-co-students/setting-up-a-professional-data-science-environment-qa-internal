@@ -134,3 +134,34 @@ You’ll be given the option to install Microsoft VSCode. For now, you can skip 
 You should then see a final window informing you that the software was installed successfully. Click close to finish the installation.
 
 If you’re asked whether you’d like to move the installer to trash, click the “Move to trash” button.
+
+## Testing your installation
+
+To test your installation, on Windows, click on Start and then Anaconda Navigator in the program list (or search for Anaconda in the search bar and select Anaconda Navigator). On a Mac, open up the finder, and in the Applications folder, double click on Anaconda-Navigator.
+
+From now on, screenshots will be from a Mac, but we’ll highlight any material differences in the experience between the OS’s.
+
+The Anaconda Navigator is one of the ways you’ll be able to run Jupyter Notebooks. Click on the “launch” button in the Jupyter notebook tile.
+
+On a mac you’ll see a terminal window pop up.
+
+On both Windows and a Mac you’ll see a window in your web browser that allows you to open existing Jupyter notebooks or create a new one.
+
+Click on the “New” button in the top right corner.
+
+And select “Python 3” from the drop down list. 
+
+When you do, you’ll see a new notebook in your browser window that looks something like this:
+
+To make sure it’s working, click in the cell and type the following:
+
+```import sys
+print(sys.version)```
+
+Then hold down the shift key and hit enter to run the code in the cell. You should see an output something like this.
+
+Don’t worry if the version number or date is slightly different. If you get a similar output (something that isn’t an error message), congratulations! You’ve got Anaconda, Python and the Jupyter notebook installed successfully!
+
+To shut down Jupyter notebook, just close the tabs in your browser containing the notebook and the list of noteboks. On a mac you should also click on the terminal window and hit “ctrl-C” to close the notebook. 
+
+You’ll then have to hit “y” and return to confirm that you want to close down Jupyter notebook.
