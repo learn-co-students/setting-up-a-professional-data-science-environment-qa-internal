@@ -1,4 +1,4 @@
-name: student-env
+name: learn-env
 channels:
   - defaults
 dependencies:
@@ -64,7 +64,11 @@ dependencies:
   - xlrd=1.1.0=py36_1
   - xz=5.2.4=h1de35cc_4
   - zlib=1.2.11=hf3cbc9b_2
+  - py-xgboost==0.72
   - pip:
     - ipynb==0.5.1
-prefix: /anaconda3/envs/student-env
-
+    - pytest==3.7
+    - tensorflow==1.6
+    - keras==2.2.1
+    - obscure==1.0.1
+prefix: /anaconda3/envs/learn-env
