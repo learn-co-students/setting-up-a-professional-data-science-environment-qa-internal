@@ -106,3 +106,31 @@ It’ll open up a browser window which you can just close down.
 
 And that’s the process of installing Anaconda. The next step is to test your installation.
 
+### Mac
+Go [here](https://www.anaconda.com/download/#macos) and click on the “download” button for the Python 3.x (currently 3.6) version of Anaconda.
+
+You should see in the bottom of your browser window that a .pkg file is being downloaded. When it finishes downloading, click on the arrow to the right of the name of the file in the bottom left corner of your browser, and select “open”.
+
+If you don’t see the file in your browser, you can also just open up the finder, navigate to the “Downloads” directory and double click on the Anaconda file in the list to open it.
+
+You’ll be informed that the package will run a program to see whether the software can be installed. Click “continue”.
+
+You’ll then see a wizard that will run you through the installation process. Click continue on the first screen.
+
+Then look at the read me, and click “continue” again.
+
+You’ll then need to accept the license. Start by clicking “continue”
+
+And then click on “agree” in the dialog that comes up and asks you to accept the license.
+
+Then click on “install” to install the software.
+
+And you’ll have to enter an administrative username and password for your computer to finally install the software.
+
+The wizard will let you know next that it’s preparing the install, and then it’ll take a couple of minutes to install all of the necessary software.
+
+You’ll be given the option to install Microsoft VSCode. For now, you can skip that option by clicking “continue”.
+
+You should then see a final window informing you that the software was installed successfully. Click close to finish the installation.
+
+If you’re asked whether you’d like to move the installer to trash, click the “Move to trash” button.
