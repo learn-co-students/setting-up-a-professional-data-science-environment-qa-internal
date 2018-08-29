@@ -156,7 +156,8 @@ When you do, you’ll see a new notebook in your browser window that looks somet
 To make sure it’s working, click in the cell and type the following:
 
 ```import sys
-print(sys.version)```
+print(sys.version)
+```
 
 Then hold down the shift key and hit enter to run the code in the cell. You should see an output something like this.
 
