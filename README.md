@@ -167,3 +167,17 @@ Don’t worry if the version number or date is slightly different. If you get a 
 To shut down Jupyter notebook, just close the tabs in your browser containing the notebook and the list of noteboks. On a mac you should also click on the terminal window and hit “ctrl-C” to close the notebook. 
 
 You’ll then have to hit “y” and return to confirm that you want to close down Jupyter notebook.
+
+## Cloning this Repository
+
+To finish this setup process, you’re going to need to download a copy of the files in this repository. To do that, you need to start by opening a terminal window.
+
+If you’re on a windows machine, select “Git Bash” from either the start menu or the search bar and it’ll open up a terminal (don’t use the default Windows terminal - it may not work for this). If you’re working on a mac, open the “Terminal” app in the “Utilities” folder within your “Applications” folder.
+
+Let’s type `pwd` to “print the working directory. It should be somewhere you are OK downloading files to. If not, feel free to use the “cd” command to change directory to one you’d like to work from.
+
+Then type (or better still, cut and paste) `git clone https://github.com/learn-co-curriculum/setting-up-a-professional-data-science-environment`
+
+This will create a new subdirectory called setting-up-a-professional-data-science-environment which will contain a copy of all of the files from this repository.
+
+
