@@ -293,3 +293,5 @@ If you see a message that states “WARNING: A newer version of conda exists”,
 
 Next, try activating the environment by typing `source activate student-env`.
 
+To confirm that it worked, type `conda info --envs` and confirm that the output in the terminal ends with /student-env - e.g. *  /Users/peterbell/anaconda3/envs/student-env
+
