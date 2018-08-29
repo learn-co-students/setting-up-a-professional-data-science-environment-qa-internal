@@ -304,3 +304,8 @@ At Flatiron, we also use tests to provide students feedback on some of the labs 
 
 There are a number of test frameworks in Python, all of which are designed to make it easier to write tests. We have standardized on [Pytest](https://pytest.org/), which currently appears to be the most popular framework being used by data scientists.
 
+To run the tests, please run the command `python -m pytest -x`
+
+There are a couple of things going on here. It's really important to run the tests using the `python -m pytest` as it works slightly differently than just running `pytest`, and by adding the `-x` option, you're asking pytest to stop after the first failure, so were you to get multiple test failures you could focus on one at a time.
+
+The expected output should look something like the image below. In short, the first two tests should pass and the third one should fail with the message "This test *should* fail - if it doesn't, something is wrong!".
