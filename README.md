@@ -180,4 +180,26 @@ Then type (or better still, cut and paste) `git clone https://github.com/learn-c
 
 This will create a new subdirectory called setting-up-a-professional-data-science-environment which will contain a copy of all of the files from this repository.
 
+## Setting Up Virtual Environments
+
+As you do data science projects, you will spend a lot of your time using pre-written libraries to speed up your development. Examples include NumPy, Pandas and scikit-learn. As you work on different projects, you may also find that you end up using different versions of different libraries for different projects. The most common versioning issue is that some projects will run in Python 2 whereas others will run in Python 3, but you may also find that different projects depend on different versions of libraries like tensorflow.
+
+Occasionally, code that works in an old version of a library won’t work in a newer version. So if you open up a new project and install the dependencies, it’s possible that your old project won’t work any more. 
+
+To avoid that problem, a best practice is to use “virtual environments”. Virtual environments allow you to have different versions of Python and different versions of the various libraries you use, so you can install a new version of a library for one project but still use the old version for another project. It’s almost as if you have multiple computers that you can swap between, each having a different setup and configuration, just by running a couple of commands.
+
+There is a build in virtual environment feature in Python, but we’re going to use the more flexible virtual environments provided by conda as part of the Anaconda distribution you installed.
+
+To use a new virtual environment, there are two steps you need to complete. The first step is to create the virtual environment. That may take a couple of minutes as your computer has to download the necessary version of Python and all of the libraries that you want to be able to use in that environment. The next step then is to “use” the virtual environment by activating it.
+
+If you want to learn more about conda environments, have a look at the [documentation](https://conda.io/docs/user-guide/tasks/manage-environments.html), otherwise, lets give this a try.
+
+You need to start by navigating into the root of this project folder, so you’re going to want to type `cd  setting-up-a-professional-data-science-environment` in your terminal.
+
+Then to create the environment type `conda env create -f environment.yml`. Depending on the speed of your computer and your internet connection it may take up to five minutes for this to complete. While it does you should see output similar to that displayed below start to appear in your terminal.
+ 
+
+If you see a message that states “WARNING: A newer version of conda exists”, feel free to run `conda update -n base conda` but it shouldn’t be required to get things working.
+
+Next, try activating the environment by typing `source activate student-env`.
 
