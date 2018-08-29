@@ -155,7 +155,8 @@ When you do, you’ll see a new notebook in your browser window that looks somet
 
 To make sure it’s working, click in the cell and type the following:
 
-```import sys
+```
+import sys
 print(sys.version)
 ```
 
