@@ -230,7 +230,7 @@ On both Windows and a Mac you’ll see a window in your web browser that allows 
 
 Click on the “New” button in the top right corner.
 
-![screen-43](http://curriculum-content.s3.amazonaws.com/data-science/screen-42.png)
+![screen-43](http://curriculum-content.s3.amazonaws.com/data-science/screen-43.png)
 
 And select “Python 3” from the drop down list. 
 
@@ -288,6 +288,7 @@ You need to start by navigating into the root of this project folder, so you’r
 
 Then to create the environment type `conda env create -f environment.yml`. Depending on the speed of your computer and your internet connection it may take up to five minutes for this to complete. While it does you should see output similar to that displayed below start to appear in your terminal.
  
+![screen-47](http://curriculum-content.s3.amazonaws.com/data-science/screen-47.png) 
 
 If you see a message that states “WARNING: A newer version of conda exists”, feel free to run `conda update -n base conda` but it shouldn’t be required to get things working.
 
