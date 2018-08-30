@@ -312,6 +312,9 @@ There are a couple of things going on here. It's really important to run the tes
 
 The expected output should look something like the image below. In short, the first two tests should pass and the third one should fail with the message "This test *should* fail - if it doesn't, something is wrong!".
 
+![screen-48](http://curriculum-content.s3.amazonaws.com/data-science/screen-48.png) 
+
+
 ## Congratulations!
 
 Congratulations! If you've gotten this far and everything has worked, you have a great baseline setup for working as a professional data scientist!
