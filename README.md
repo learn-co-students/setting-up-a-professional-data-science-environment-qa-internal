@@ -294,7 +294,7 @@ Then to create the environment, on a mac, type `conda env create -f environment.
 
 If you see a message that states “WARNING: A newer version of conda exists”, run `conda update -n base conda` and then try again to create the environment using `conda env create -f environment.yml`.
 
-Next, try activating the environment by typing `source activate learn-env`.
+Next, try activating the environment. On a mac, type `source activate learn-env`. On windows, type `activate learn-env`.
 
 To confirm that it worked, type `conda info --envs` and confirm that the output in the terminal ends with /learn-env - e.g. *  /Users/peterbell/anaconda3/envs/learn-env
 
