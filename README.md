@@ -292,7 +292,7 @@ Then to create the environment type `conda env create -f environment.yml`. Depen
  
 ![screen-47](http://curriculum-content.s3.amazonaws.com/data-science/screen-47.png) 
 
-If you see a message that states “WARNING: A newer version of conda exists”, feel free to run `conda update -n base conda` but it shouldn’t be required to get things working.
+If you see a message that states “WARNING: A newer version of conda exists”, run `conda update -n base conda` and then try again to create the environment using `conda env create -f environment.yml`.
 
 Next, try activating the environment by typing `source activate learn-env`.
 
