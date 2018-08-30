@@ -2,7 +2,7 @@
 
 Whether you’re just looking to learn the basics or want to become a professional data scientist, it’s important to take a little time to “set yourself up for success” by installing and learning to use the right tools on your computer.
 
-If you already have Git and Anaconda installed, feel free to jump straight to the [tests](#running-tests)
+If you already have Git and Anaconda installed, feel free to jump straight to the [cloning, virtual environment setup and testing](#cloning-this-repository)
 
 ## What tools do professional data scientists use?
 * **Python** - There are many languages that can be used for data science, but these days most data scientists are using Python to write their code. 
