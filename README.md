@@ -311,3 +311,7 @@ To run the tests, please run the command `python -m pytest -x`
 There are a couple of things going on here. It's really important to run the tests using the `python -m pytest` as it works slightly differently than just running `pytest`, and by adding the `-x` option, you're asking pytest to stop after the first failure, so were you to get multiple test failures you could focus on one at a time.
 
 The expected output should look something like the image below. In short, the first two tests should pass and the third one should fail with the message "This test *should* fail - if it doesn't, something is wrong!".
+
+## Congratulations!
+
+Congratulations! If you've gotten this far and everything has worked, you have a great baseline setup for working as a professional data scientist!
