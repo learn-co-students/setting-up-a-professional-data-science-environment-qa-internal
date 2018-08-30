@@ -264,7 +264,7 @@ You’ll then have to hit “y” and return to confirm that you want to close d
 
 To finish this setup process, you’re going to need to download a copy of the files in this repository. To do that, you need to start by opening a terminal window.
 
-If you’re on a windows machine, select “Git Bash” from either the start menu or the search bar and it’ll open up a terminal (don’t use the default Windows terminal - it may not work for this). If you’re working on a mac, open the “Terminal” app in the “Utilities” folder within your “Applications” folder.
+If you’re on a windows machine, select “Anaconda Prompt” from either the start menu or the search bar and it’ll open up a terminal (don’t use the default Windows terminal - it may not work for this). If you’re working on a mac, open the “Terminal” app in the “Utilities” folder within your “Applications” folder.
 
 Let’s type `pwd` to “print the working directory. It should be somewhere you are OK downloading files to. If not, feel free to use the “cd” command to change directory to one you’d like to work from.
 
