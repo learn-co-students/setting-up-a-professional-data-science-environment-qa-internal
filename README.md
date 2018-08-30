@@ -131,7 +131,7 @@ Click “next”, then “I agree” to accept the license, and you can install 
 
 On the next screen, make sure to check the "Add Anaconda to my PATH environment" check box. It will inform you that it's not recommended, but this is required to be able to access Anaconda from the command line and the final instructions in this guide won't work unless you check this box. Then click “install”.
 
-![screen-20](http://curriculum-content.s3.amazonaws.com/data-science/screen-20.png)
+![screen-20](http://curriculum-content.s3.amazonaws.com/data-science/screen-00.png)
 
 This step may take a few minutes.
 
