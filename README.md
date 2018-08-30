@@ -288,7 +288,7 @@ If you want to learn more about conda environments, have a look at the [document
 
 You need to start by navigating into the root of this project folder, so you’re going to want to type `cd  setting-up-a-professional-data-science-environment` in your terminal.
 
-Then to create the environment type `conda env create -f environment.yml`. Depending on the speed of your computer and your internet connection it may take up to five minutes for this to complete. While it does you should see output similar to that displayed below start to appear in your terminal.
+Then to create the environment, on a mac, type `conda env create -f environment.yml`. On windows, type `conda env create -f windows.yml`. Depending on the speed of your computer and your internet connection it may take up to five minutes for this to complete. While it does you should see output similar to that displayed below start to appear in your terminal.
  
 ![screen-47](http://curriculum-content.s3.amazonaws.com/data-science/screen-47.png) 
 
