@@ -314,6 +314,10 @@ The expected output should look something like the image below. In short, the fi
 
 ![screen-48](http://curriculum-content.s3.amazonaws.com/data-science/screen-48.png) 
 
+## Troubleshooting
+* If you get a message - ModuleNotFound ipynb, firstly make sure you activated the conda environment - run `conda info --envs` and make sure there is a star next to the learn-env which denotes that you're running that environment. If not, try re-running the command to activate the environment. If you are in the right environment and still get that error, try running `pip install ipynb`. It may fix the issue.
+* If you get a failure running the test "test_conda_environment_activated", after checking that you have activated the conda environment, try running `pip install obscure`. Again it should fix the issue with the test.
+
 
 ## Congratulations!
 
