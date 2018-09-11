@@ -228,17 +228,17 @@ On a mac you’ll see a terminal window pop up.
 
 On both Windows and a Mac you’ll see a window in your web browser that allows you to open existing Jupyter notebooks or create a new one.
 
-![screen-42](http://curriculum-content.s3.amazonaws.com/data-science/screen-43.png)
+![screen-42](http://curriculum-content.s3.amazonaws.com/data-science/screen-42.png)
 
 Click on the “New” button in the top right corner.
 
-![screen-43](http://curriculum-content.s3.amazonaws.com/data-science/screen-42.png)
+![screen-43](http://curriculum-content.s3.amazonaws.com/data-science/screen-444.png)
 
 And select “Python 3” from the drop down list. 
 
 When you do, you’ll see a new notebook in your browser window that looks something like this:
 
-![screen-44](http://curriculum-content.s3.amazonaws.com/data-science/screen-44.png)
+![screen-44](http://curriculum-content.s3.amazonaws.com/data-science/screen-43.png)
 
 To make sure it’s working, click in the cell and type the following:
 
