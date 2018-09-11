@@ -51,7 +51,7 @@ And use MinTTY as the default terminal emulator
 
 ![screen-5](http://curriculum-content.s3.amazonaws.com/data-science/screen-5.png)
 
-For extra options, enable the file system caching and the gt credential manager.
+For extra options, enable the file system caching and the git credential manager.
 
 ![screen-6](http://curriculum-content.s3.amazonaws.com/data-science/screen-6.png)
 
