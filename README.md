@@ -232,7 +232,7 @@ On both Windows and a Mac you’ll see a window in your web browser that allows 
 
 Click on the “New” button in the top right corner.
 
-![screen-43](http://curriculum-content.s3.amazonaws.com/data-science/screen-444.png)
+![screen-43](http://curriculum-content.s3.amazonaws.com/data-science/screen-44.png)
 
 And select “Python 3” from the drop down list. 
 
