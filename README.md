@@ -24,7 +24,7 @@ Assuming you have a computer that meets the requirements, let’s start by getti
 For each tool, we’ll provide installation instructions for the two most common operating systems - Windows and MacOS.
 
 ## Windows
-Go (here)[https://git-scm.com/download/win]. Then double click on the downloaded exe file. It may open a window asking if you want to allow this application to make changes to your device. Just click “yes”. It will then open the installer. Click “next” to accept the license, and when you “select components” on the next screen make sure to keep the “Windows explorer integration” options checked.
+Go [here](https://git-scm.com/download/win). Then double click on the downloaded exe file. It may open a window asking if you want to allow this application to make changes to your device. Just click “yes”. It will then open the installer. Click “next” to accept the license, and when you “select components” on the next screen make sure to keep the “Windows explorer integration” options checked.
 
 Note - if there are any differences in the options provided in the installer you download, just accept the defaults - they’ll probably be fine!
 
@@ -64,9 +64,9 @@ Finally, click finish to complete setup
 ![screen-8](http://curriculum-content.s3.amazonaws.com/data-science/screen-8.png)
 
 #### MacOS
-If you are comfortable with the command line and have installed (homebrew)[https://brew.sh/], you should install git by running the command `brew install git` in a terminal window.  
+If you are comfortable with the command line and have installed [homebrew](https://brew.sh/), you should install git by running the command `brew install git` in a terminal window.  
 
-If you have no idea what the last paragraph meant, just go (here)[https://git-scm.com/download/mac]. Then double click on the downloaded dmg file and it will open a small finder window looking something like this (the exact name and version will change over time):
+If you have no idea what the last paragraph meant, just go [here](https://git-scm.com/download/mac). Then double click on the downloaded dmg file and it will open a small finder window looking something like this (the exact name and version will change over time):
 
 ![screen-10](http://curriculum-content.s3.amazonaws.com/data-science/screen-10.png)
 
